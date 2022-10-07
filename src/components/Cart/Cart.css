@@ -1,5 +1,19 @@
 .cart{
     position: sticky;
     top: 0;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
+.cart button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    margin: 5px
+}
+.cart button:hover{
+    background-color: green;
+}
+
